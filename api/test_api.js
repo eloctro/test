@@ -1,4 +1,5 @@
 const url = "https://type.fit/api/quotes";
+const div = document.querySelector('.div')
 
 async function getData() {
   const res = await fetch(url);
