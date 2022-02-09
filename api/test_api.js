@@ -9,7 +9,7 @@ async function getData() {
 
 function showData(data) {
   console.log(data);
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 1000; i++) {
     const num = document.createElement("span");
     const text = document.createElement("span");
     const author = document.createElement("span");
