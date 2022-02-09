@@ -1,5 +1,3 @@
-const div = document.createElement("div");
-document.body.append(div);
 const url = "https://type.fit/api/quotes";
 
 async function getData() {
