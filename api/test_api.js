@@ -13,7 +13,7 @@ function showData(data) {
   for (let i = 0; i < 100; i++) {
     const num = document.createElement("span");
     const text = document.createElement("span");
-    const author = document.createElement("span");https://github.com/eloctro/test/blob/gh-pages/api/test_api.js
+    const author = document.createElement("span");
     const br = document.createElement("br");
 
     num.textContent =` ${i + 1}. `;
