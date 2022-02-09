@@ -10,10 +10,10 @@ async function getData() {
 
 function showData(data) {
   console.log(data);
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 100; i++) {
     const num = document.createElement("span");
     const text = document.createElement("span");
-    const author = document.createElement("span");
+    const author = document.createElement("span");https://github.com/eloctro/test/blob/gh-pages/api/test_api.js
     const br = document.createElement("br");
 
     num.textContent =` ${i + 1}. `;
